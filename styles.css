@@ -1,3 +1,85 @@
-body {
-	background: blue
+.main {
+	background-color: yellow;
 }
+
+
+#image {
+	display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%
+
+}
+
+.bio{
+	font-family: arial;
+	border: groove;
+	padding: 9px;
+
+}
+
+.roster {
+	background-image: url(gswwp.jpg);
+
+
+}
+
+
+#starters {
+	background-color: yellow;
+
+}
+
+#reserves{
+	margin-left: 217px;
+	background-color: yellow;
+}
+
+.champs{
+	background-image: url(trophy.png);
+}
+
+.champsbio {
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+#years {
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+a:link {
+	color: yellow
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: pink;
+}
+
+@media screen and (min-width: 0px) {
+	div#image {
+        padding-left: 30px;
+        width: 500px;
+        margin: 0px auto;
+        height: 100px;
+        font-size: 27px
+    }
+   }
+
+ @media screen and (max-width: 1000px) {
+	div#image {
+        width: 900px;
+        margin: 0px auto;
+        height: 100px;
+        font-size: 27px
+    }
+}
+
+
